@@ -21,4 +21,4 @@ Built with modular architecture for easy maintenance.
 ### Compilation
 ```sh
 make        # Builds the executable
-./main  # Runs the program
+./main      # Runs the program
