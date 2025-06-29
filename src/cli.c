@@ -60,7 +60,7 @@ void search_contact(void)
 
     char search[30];
     printf("Enter contacts name: ");
-    fgets(search,10,stdin);
+    fgets(search,30,stdin);
     search[strcspn(search,"\n")] = 0;
 
     int found = 0;
