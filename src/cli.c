@@ -5,14 +5,12 @@
 Contact people[MAX_CONTACTS];
 int count = 0;
 
-void clean_buff(void) 
-{
+void clean_buff(void) {
         int ch;
         while((ch=getchar())!='\n'&&ch!=EOF);
 }
 
-void add_contact(void) 
-{
+void add_contact(void) {
     if(count >= MAX_CONTACTS) {
             printf("Error: over limit of contacts\n");
             printf("Max contacts: 10\n");
@@ -39,8 +37,7 @@ void add_contact(void)
     count++;
 }
 
-void show_contacts(void) 
-{
+void show_contacts(void) {
     if(count == 0) {
             printf("No contacts yet\n");
             return;
@@ -51,8 +48,7 @@ void show_contacts(void)
     }
 }
 
-void search_contact(void) 
-{
+void search_contact(void) {
     if(count == 0) {
             printf("No contacts yet\n");
             return;
